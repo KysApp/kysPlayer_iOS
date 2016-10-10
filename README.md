@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, controlViewState) {
 [_playerView setControlState:controlViewStateSmall];
 ```
 ps:只有处理屏幕旋转时才使用，其它时候使用会产生错乱
-## 设置选集 学台的名称
+## 设置选集、选台的名称
 传入字符串数组 当作名称显示在选择按钮上
 ```
 [_playerView setpageViewcontent:@[@"1",@"2"]];
