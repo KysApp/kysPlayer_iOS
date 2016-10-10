@@ -4,7 +4,7 @@ kysPlayer目前基于IJK的封装，增加控制层方便使用
 ## 准备
 * kysPlayer文件夹拖入工程
 * 需要链接下列库文件
-    *VideoToolbox.framework
+    *VideoToolbox.framework<br\>
     *QuartzCore.framework
     *OpenGLES.framework
     *MobileCoreServices.freamwork
