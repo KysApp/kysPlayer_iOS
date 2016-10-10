@@ -4,14 +4,14 @@ kysPlayer目前基于IJK的封装，增加控制层方便使用
 ## 准备
 * kysPlayer文件夹拖入工程
 * 需要链接下列库文件<br/>
-    *VideoToolbox.framework<br/>
-    *QuartzCore.framework<br/>
-    *OpenGLES.framework<br/>
-    *MobileCoreServices.freamwork<br/>
-    *MediaPlayer.framework<br/>
-    *AudioToolbox.framework<br/>
-    *libz.tbd<br/>
-    *libbz2.tbd
+    VideoToolbox.framework<br/>
+    QuartzCore.framework<br/>
+    OpenGLES.framework<br/>
+    MobileCoreServices.freamwork<br/>
+    MediaPlayer.framework<br/>
+    AudioToolbox.framework<br/>
+    libz.tbd<br/>
+    libbz2.tbd
 * 由于肯定会使用到转屏的相关功能 所以提供了kysNavigationController,kysTabBarController,kysRootViewController的简单封装，达到页面控制是否旋转的目的，默认为只支持Portrait方向。
 
 ## 初始化
