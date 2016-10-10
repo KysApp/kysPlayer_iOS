@@ -15,7 +15,6 @@
 		562A017D1DA8EE6F0046D3C7 /* kysPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562A017C1DA8EE6F0046D3C7 /* kysPlayerTests.m */; };
 		562A01881DA8EE6F0046D3C7 /* kysPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562A01871DA8EE6F0046D3C7 /* kysPlayerUITests.m */; };
 		562A019B1DA8F1200046D3C7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A019A1DA8F1200046D3C7 /* VideoToolbox.framework */; };
-		562A019D1DA8F1280046D3C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A019C1DA8F1280046D3C7 /* UIKit.framework */; };
 		562A019F1DA8F12E0046D3C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A019E1DA8F12E0046D3C7 /* QuartzCore.framework */; };
 		562A01A11DA8F1360046D3C7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A01A01DA8F1360046D3C7 /* OpenGLES.framework */; };
 		562A01A31DA8F1400046D3C7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562A01A21DA8F1400046D3C7 /* MobileCoreServices.framework */; };
@@ -108,7 +107,6 @@
 				562A01A31DA8F1400046D3C7 /* MobileCoreServices.framework in Frameworks */,
 				562A01A11DA8F1360046D3C7 /* OpenGLES.framework in Frameworks */,
 				562A019F1DA8F12E0046D3C7 /* QuartzCore.framework in Frameworks */,
-				562A019D1DA8F1280046D3C7 /* UIKit.framework in Frameworks */,
 				562A019B1DA8F1200046D3C7 /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

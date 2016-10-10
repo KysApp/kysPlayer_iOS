@@ -544,7 +544,8 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     if (_videoType == videoTypeStateVODPlay) {
         PageViewCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"vodCell" forIndexPath:indexPath];
-        cell.name.text = _choicePageNameList[indexPath.row];
+        NSString *title = _choicePageNameList[indexPath.row];
+        cell.name.text = title?title:@"";
         if (indexPath.row == _currentPageNum) {
             cell.name.textColor = [UIColor blueColor];
             cell.contentView.layer.borderColor = [[UIColor blueColor] CGColor];
